@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyledPlaylistItems = styled.div`
 	padding: 0 20px;
 	overflow-y: auto;
-	height: 28vw;
+	height: calc(50vh - 160px);
 	max-height: 500px;
 
 	::-webkit-scrollbar {

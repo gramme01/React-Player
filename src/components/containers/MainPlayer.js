@@ -94,8 +94,8 @@ const MainPlayer = ({ match, history, location }) => {
 
 	const progressCallback = e => {
 		if (e.playedSeconds > 10 && e.playedSeconds < 11) {
-			const videos = [...state.vidoes];
-			const playedVideo = videos.map(
+			const videos = [...state.videos];
+			const playedVideo = videos.find(
 				video => video.id === state.activeVideo.id
 			);
 			playedVideo.played = true;

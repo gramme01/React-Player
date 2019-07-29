@@ -12,7 +12,8 @@ const StyledMainPlayer = styled.div`
 
 	@media screen and (max-width: 1400px) {
 		display: block;
-		max-height: 10000px;
+		height: 100vh;
+		max-height: 100vh;
 	}
 `;
 
